@@ -10,7 +10,7 @@
     text-align: right;
     border-width: thin;
 }
-li {
+.li {
     display: inline;
     line-height: 50px;
     padding: 20px 20px;             
