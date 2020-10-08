@@ -4,6 +4,8 @@ import Bicycle from './Bicycle';
 import TV from './TV';
 import Pencil from './Pencil';
 import './Products.css';
+import '../home/Home'
+import Home from '../home/Home';
 
 class Products extends Component {
   render() {

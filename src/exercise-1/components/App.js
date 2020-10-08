@@ -28,9 +28,10 @@ class App extends Component {
             
             <Switch>
               <Route exact path='/' component={Home}></Route>
-              <Route path='/products' component={Products}></Route>
+              <Route path='/(products|goods)' component={Products}></Route>
               <Route path='/my-profile' component={Myprofile}></Route>
               <Route path='/about-us' component={Aboutus}></Route>
+              <Route path='*' component={Home}></Route>
             </Switch>
   
   </div></BrowserRouter>
